@@ -9,8 +9,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 ### Enter the sender's email id and password for authentication
-sender = "ali.egnify@gmail.com"                 # Enter sender's email ID
-password = "egnify123"               # Enter password
+sender = ""                 # Enter sender's email ID
+password = ""               # Enter password
 
 # This function scrapes imdb.com and search for the given TV Series with its name and
 # then return its new episode/season date, rating and genre.
