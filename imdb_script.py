@@ -176,7 +176,7 @@ def input_and_store_data():
             # Input data is stored in database named imdb_database and table named user_data
             conn = mysql.connector.connect(host='localhost',
                                         user='root',
-                                        password='galaxyj5')
+                                        password='')        # Write your MySQL password
             # print(conn)
             cursor = conn.cursor()
             cursor.execute("CREATE DATABASE IF NOT EXISTS imdb_database")
